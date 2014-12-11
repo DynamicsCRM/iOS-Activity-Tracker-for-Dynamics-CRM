@@ -1,4 +1,4 @@
-# Activity Tracker #
+# Android Activity Tracker Sample app for Microsoft Dynamics CRM #
 
 The activity tracker sample application enables you to connect to your Microsoft Dynamics CRM 2013 organization, query for your contacts, and add a quick activity record related to a contact.  Use this sample’s source code as a starting point to build your own apps that can access the CRM web services. 
 
