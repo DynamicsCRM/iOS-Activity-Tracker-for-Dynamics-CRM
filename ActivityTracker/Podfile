@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+pod 'ADALiOS', '=1.2.4'
+pod 'CRMMobileSDK', :git => 'https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios.git'
+
+target 'ActivityTracker' do
+
+end
+
+target 'ActivityTrackerTests' do
+
+end

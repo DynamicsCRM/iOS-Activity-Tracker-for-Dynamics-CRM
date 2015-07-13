@@ -1,0 +1,23 @@
+PODS:
+  - ADALiOS (1.2.4)
+  - CRMMobileSDK (1.0.0):
+    - ADALiOS (= 1.2.4)
+
+DEPENDENCIES:
+  - ADALiOS (= 1.2.4)
+  - CRMMobileSDK (from `https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios.git`)
+
+EXTERNAL SOURCES:
+  CRMMobileSDK:
+    :git: https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios.git
+
+CHECKOUT OPTIONS:
+  CRMMobileSDK:
+    :commit: eea7e3bd50b752e16681598c4794a53e9e5e04e3
+    :git: https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios.git
+
+SPEC CHECKSUMS:
+  ADALiOS: 8179aed8e136bf79dca5a4138a0c1a0d52701cb2
+  CRMMobileSDK: 979b1877371b9bc95a329949dd32b55ae76b7f1d
+
+COCOAPODS: 0.37.2
