@@ -14,7 +14,7 @@ For internal app testing, you can share a single app registration across multipl
 
 To build the sample app, follow these steps. You will need CocoaPods installed to resolve the project dependencies. Follow the instructions from [CocoaPods.org](https://guides.cocoapods.org/using/getting-started.html).
 
-0. Download the project dependencies by running `pod install`. The dependencies that will be installed are the [Microsoft ADAL](https://github.com/AzureAD/azure-activedirectory-library-for-objc) and the [Microsoft Dynamics CRM Mobile SDK Library for iOS](https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios).
+0. In a terminal window, change to the ActivityTracker directory under the project’s root folder, and then download the project dependencies by running `pod install`. The dependencies that will be installed in the Pods folder are the [Microsoft ADAL](https://github.com/AzureAD/azure-activedirectory-library-for-objc) and the [Microsoft Dynamics CRM Mobile SDK Library for iOS](https://github.com/DynamicsCRM/crm-mobilesdk-library-for-ios).
 1. Load the ActivityTracker.xcworkspace file, located in the ActivityTracker folder, into Xcode.
 2. Set the active scheme to the ActivityTracker target.
 3. Edit the AppDelegate.m file. On line 44 in the code file, change the provided value of `clientWithClientID` to the client ID value from your app registration.
